@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Neo Employee</string>
+    <string name="login_title_text">Log In</string>
+    <string name="login_desc_text">Enter your email to log into your account</string>
+    <string name="login_no_account_ask">Don\'t have an account yet?</string>
+    <string name="login_create_account_text">Create One.</string>
+    <string name="login_continue_btn_text">Continue</string>
 </resources>

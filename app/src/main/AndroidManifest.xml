@@ -13,8 +13,13 @@
         android:theme="@style/Theme.Neoemployee"
         tools:targetApi="31">
         <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:theme="@style/Base.Theme.Neoemployee"/>
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Base.Theme.Neoemployee">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

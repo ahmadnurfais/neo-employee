@@ -5,4 +5,24 @@
     <string name="login_no_account_ask">Don\'t have an account yet?</string>
     <string name="login_create_account_text">Create One.</string>
     <string name="login_continue_btn_text">Continue</string>
+
+
+    <string name="meeting_management_meetings_text">Meetings</string>
+    <string name="meeting_management_important_meetings_text">Important Meeting Details</string>
+
+    <string name="add_meeting_create_text">Create New Meeting</string>
+    <string name="add_meeting_title_text">Title</string>
+    <string name="add_meeting_date_text">Date</string>
+    <string name="add_meeting_time_text">Time</string>
+    <string name="add_meeting_description_text">Description</string>
+    <string name="add_meeting_type_text">Type</string>
+    <string name="add_meeting_meeting_link_text">Meeting Link</string>
+    <string name="inputTitle">Enter Title</string>
+    <string name="content_desc">Enter</string>
+    <string name="save_button">Save</string>
+    <string name="hint"> </string>
+    <string name="Lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget finibus enim. Curabitur ac convallis ante. Vestibulum elit magna, bibendum sed vehicula ut, lobortis et lacus.</string>
+
+
+
 </resources>

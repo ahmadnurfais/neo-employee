@@ -27,21 +27,21 @@
             android:src="@drawable/back_button" />
 
         <TextView
-            android:id="@+id/task_title"
-            android:layout_width="283dp"
+            android:id="@+id/create_task"
+            android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:layout_weight="1"
-            android:text="Collaborate on Newsletter Content"
+            android:text="Create new task"
             android:textSize="20sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/publish_text"
+            android:id="@+id/save_text"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="Publish"
+            android:text="Save to draft"
             android:textColor="#0097B2"
             android:textStyle="bold" />
     </LinearLayout>
@@ -73,7 +73,7 @@
                     android:id="@+id/textView"
                     android:layout_width="272dp"
                     android:layout_height="wrap_content"
-                    android:text="Collaborate on Newsletter Content"
+                    android:text="Upadate Marketing Budget Tracker"
                     android:textSize="24sp"
                     android:textStyle="bold" />
 
@@ -84,7 +84,7 @@
                     android:layout_gravity="bottom"
                     android:layout_weight="1"
                     android:gravity="right"
-                    android:text="18/45"
+                    android:text="19/45"
                     android:textColor="#0097B2" />
             </LinearLayout>
 
@@ -110,7 +110,7 @@
                 android:background="@drawable/roundedcorner"
                 android:ems="10"
                 android:gravity="start|top"
-                android:hint="Work with the content team to create engaging content for the monthly employee newsletter. Focus on highlighting upcoming events, team achievements, and new marketing initiatives."
+                android:hint="Review the marketing department's spending for Q3 and update the budget tracker with current numbers. Ensure all expenses are categorized correctly, and flag any discrepancies for review with the finance team."
                 android:inputType="textMultiLine"
                 android:padding="10dp"
                 android:textSize="12sp" />
@@ -202,26 +202,12 @@
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:layout_width="40dp"
-                        android:layout_height="35dp"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="10dp"
-                        android:src="@drawable/icon" />
-
-                    <TextView
-                        android:id="@+id/assigned_user2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_marginRight="10dp"
-                        android:gravity="center"
-                        android:text="Chandler Bing" />
-
-                    <ImageView
                         android:layout_width="20dp"
                         android:layout_height="20dp"
                         android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
                         android:layout_marginRight="10dp"
-                        android:src="@drawable/close"/>
+                        android:src="@drawable/plus"/>
 
                 </LinearLayout>
             </LinearLayout>

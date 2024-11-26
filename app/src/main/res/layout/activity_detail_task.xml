@@ -141,8 +141,9 @@
             <Spinner
                 android:id="@+id/project_spinner"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="4dp" />
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/roundedcorner" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -157,16 +158,71 @@
                 android:layout_marginTop="4dp"
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:layout_width="40dp"
+                <LinearLayout
+                    android:id="@+id/user1"
+                    android:layout_width="wrap_content"
                     android:layout_height="40dp"
-                    android:src="@drawable/icon" />
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/roundedcorner"
+                    android:orientation="horizontal">
 
-                <ImageView
-                    android:layout_width="40dp"
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/icon" />
+
+                    <TextView
+                        android:id="@+id/assigned_user1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center"
+                        android:text="Rachel Green" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/close"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/user2"
+                    android:layout_width="wrap_content"
                     android:layout_height="40dp"
-                    android:layout_marginStart="8dp"
-                    android:src="@drawable/icon" />
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/roundedcorner"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/icon" />
+
+                    <TextView
+                        android:id="@+id/assigned_user2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center"
+                        android:text="Chandler Bing" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/close"/>
+
+                </LinearLayout>
             </LinearLayout>
 
             <TextView

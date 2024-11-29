@@ -241,6 +241,40 @@
                 android:text="October 25, 2024"
                 android:textColor="#000000" />
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <Spinner
+                    android:id="@+id/yearSpinner"
+                    android:layout_width="105dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/Date" />
+
+                <!-- Month Spinner -->
+
+                <Spinner
+                    android:id="@+id/monthSpinner"
+                    android:layout_width="130dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toEndOf="@+id/yearSpinner"
+                    app:layout_constraintTop_toBottomOf="@+id/Date" />
+
+                <!-- Date Spinner -->
+
+                <Spinner
+                    android:id="@+id/dateSpinner"
+                    android:layout_width="100dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toEndOf="@+id/monthSpinner"
+                    app:layout_constraintTop_toBottomOf="@+id/Date" />
+
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 

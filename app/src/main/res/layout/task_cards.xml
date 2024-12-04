@@ -132,9 +132,9 @@
             android:layout_width="132dp"
             android:layout_height="79dp"
             android:layout_marginTop="1dp"
+            card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintTop_toBottomOf="@+id/taskDescription"
-            card_view:srcCompat="@drawable/new_task_icon"
-            tools:layout_editor_absoluteX="232dp" />
+            card_view:srcCompat="@drawable/new_task_icon" />
 
         <ImageView
             android:id="@+id/clockIcon"

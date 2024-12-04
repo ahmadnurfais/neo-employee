@@ -1,0 +1,158 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/taskCards"
+    android:layout_width="380dp"
+    android:layout_height="170dp"
+    android:layout_margin="16dp"
+    android:foregroundTint="#923B3B"
+    card_view:cardBackgroundColor="@color/white"
+    card_view:cardCornerRadius="16dp"
+    card_view:cardElevation="5dp"
+    card_view:cardMaxElevation="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        card_view:layout_constraintBottom_toBottomOf="@+id/cardDescription"
+        card_view:layout_constraintTop_toBottomOf="@+id/cardDescription">
+
+        <TextView
+            android:id="@+id/taskTitle"
+            android:layout_width="330dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="256dp"
+            android:layout_marginBottom="111dp"
+            android:fontFamily="@font/albert_sans_medium"
+            android:text="Organize Webinar for Marketing"
+            android:maxLength=""
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.062"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="1.0"
+            tools:layout_conversion_absoluteHeight="22dp"
+            tools:layout_conversion_absoluteWidth="82dp" />
+
+        <TextView
+            android:id="@+id/taskDescription"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginBottom="7dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/albert_sans"
+            android:maxLines="2"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed eros ac magna ultricies venenatis non ac dui. Nulla varius accumsan nunc at ultricies."
+            android:textColor="#808080"
+            card_view:layout_constraintBottom_toTopOf="@+id/folderIcon"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            tools:layout_conversion_absoluteHeight="18dp"
+            tools:layout_conversion_absoluteWidth="338dp" />
+
+        <ImageView
+            android:id="@+id/folderIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="95dp"
+            android:layout_marginBottom="35dp"
+            android:padding="0dp"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="0.875"
+            card_view:srcCompat="@drawable/baseline_article_24"
+            tools:layout_conversion_absoluteHeight="24dp"
+            tools:layout_conversion_absoluteWidth="24dp" />
+
+        <ImageView
+            android:id="@+id/taskColor"
+            android:layout_width="35dp"
+            android:layout_height="219dp"
+            android:layout_marginEnd="10dp"
+            card_view:layout_constraintEnd_toStartOf="@+id/taskTitle"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:srcCompat="@drawable/card_tabs" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="109dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="94dp"
+            android:layout_marginBottom="8dp"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:srcCompat="@drawable/completed_icon" />
+
+        <TextView
+            android:id="@+id/taskGenre"
+            android:layout_width="150dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="84dp"
+            android:layout_marginBottom="52dp"
+            android:fontFamily="@font/albert_sans"
+            android:padding="0dp"
+            android:text="Campaign"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.0"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="0.187"
+            tools:layout_conversion_absoluteHeight="19dp"
+            tools:layout_conversion_absoluteWidth="347dp" />
+
+        <TextView
+            android:id="@+id/taskDueDate"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="116dp"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/albert_sans"
+            android:padding="0dp"
+            android:text="November 27, 2024"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.0"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintVertical_bias="0.0"
+            tools:layout_conversion_absoluteHeight="19dp"
+            tools:layout_conversion_absoluteWidth="347dp" />
+
+        <ImageView
+            android:id="@+id/clockIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="112dp"
+            android:layout_marginEnd="316dp"
+            android:padding="0dp"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.0"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:srcCompat="@drawable/outline_access_time_24"
+            tools:layout_conversion_absoluteHeight="24dp"
+            tools:layout_conversion_absoluteWidth="24dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,5 +1,6 @@
 package com.tech.neoemployee
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
@@ -50,6 +51,14 @@ class AddMeetingPage : AppCompatActivity() {
             } else {
                 val formattedTime = "$selectedHour:$selectedMinute $selectedAmPm"
                 val formattedDate = "$selectedDay/$selectedMonth/$selectedYear"
+                val meetingDetails = "$title - $formattedDate at $formattedTime\nType: $type\nLink: $link"
+                // Send data back to MainActivity
+                val dateKey = intent.getStringExtra("dateKey") ?: ""
+                val intent = Intent()
+                intent.putExtra("dateKey", dateKey)
+                intent.putExtra("meetingDetails", meetingDetails)
+                setResult(RESULT_OK, intent)
+                finish() // Close the activity
                 Toast.makeText(this, "Meeting Saved: $title on $formattedDate at $formattedTime", Toast.LENGTH_LONG).show()
             }
         }

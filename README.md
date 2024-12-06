@@ -7,7 +7,7 @@ NeoEmployee is a comprehensive employee management mobile application designed t
 - Task and Project Management
 - Meeting Scheduler with room booking
 - Company News Hub
-- Employee Resources and Benefits Portal
+ - Employee Resources and Benefits Portal
 - Inter-office Chat System
 - Pick-Delivery-Order System for inter-office logistics
 

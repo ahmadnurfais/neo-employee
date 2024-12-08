@@ -13,11 +13,17 @@
         android:theme="@style/Theme.Neoemployee"
         tools:targetApi="31">
         <activity
+            android:name=".ProfilePage"
+            android:exported="true" />
+        <activity
+            android:name=".SettingPage"
+            android:exported="false" />
+        <activity
             android:name=".AddMeetingPage"
             android:exported="false" />
         <activity
             android:name=".MeetingManagementPage"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".LoginActivity"
             android:exported="false"

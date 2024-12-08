@@ -5,4 +5,12 @@
     <string name="login_no_account_ask">Don\'t have an account yet?</string>
     <string name="login_create_account_text">Create One.</string>
     <string name="login_continue_btn_text">Continue</string>
+    <string name="sasha_text">Sasha\'s (Regional Manager) Farewell Event</string>
+    <string name="back">Back</string>
+    <string name="news_text">After 8 incredible years with the company, Sasha, our beloved Regional Manager, is moving on to an exciting new chapter in her career. To celebrate her immense contributions and bid her a heartfelt farewell, we’re hosting a special event in her honor.
+Join us for Sasha’s Farewell Celebration on December 14th, 2024, at 3:00 PM in the main conference room. This event will include speeches from key team members, a memory-sharing session, and a farewell toast.
+Sasha has played a crucial role in driving our regional success and has been a fantastic leader and mentor to many. Let’s gather to show our appreciation for her hard work, dedication, and the positive impact she’s had on all of us.
+Please RSVP by December 12th, and feel free to contribute to the group card or gift. Let’s make this a memorable send-off!</string>
+    <string name="posted_info"> Posted By: Robert, Operations Manager</string>
+    <string name="posted_date">Monday, 9 December 2024</string>
 </resources>

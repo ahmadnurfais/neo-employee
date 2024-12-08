@@ -5,4 +5,11 @@
     <string name="login_no_account_ask">Don\'t have an account yet?</string>
     <string name="login_create_account_text">Create One.</string>
     <string name="login_continue_btn_text">Continue</string>
+    <string name="selected_item">Selected item:</string>
+    <string-array name="project_spinner">
+        <item>Newsletter</item>
+        <item>Marketing</item>
+        <item>Project A</item>
+        <item>Project B</item>
+    </string-array>
 </resources>

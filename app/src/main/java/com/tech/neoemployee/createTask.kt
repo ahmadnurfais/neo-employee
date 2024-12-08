@@ -11,12 +11,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class detailTask : AppCompatActivity() {
+class createTask : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_detail_task)
-//        setContentView(R.layout.activity_create_task)
+//        setContentView(R.layout.activity_detail_task)
+        setContentView(R.layout.activity_create_task)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
@@ -42,7 +42,7 @@ class detailTask : AppCompatActivity() {
                 id: Long
             ) {
                 val selectedItem = parent.getItemAtPosition(position).toString()
-                Toast.makeText(this@detailTask, "Selected: $selectedItem", Toast.LENGTH_SHORT)
+                Toast.makeText(this@createTask, "Selected: $selectedItem", Toast.LENGTH_SHORT)
                     .show()
             }
 

@@ -2,11 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/create_task"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient"
-    tools:context=".detailTask">
+    tools:context=".createTask">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -27,7 +27,7 @@
             android:src="@drawable/back_button" />
 
         <TextView
-            android:id="@+id/create_task"
+            android:id="@+id/create_task_title"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
@@ -143,8 +143,7 @@
                 android:id="@+id/project_spinner"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/roundedcorner" />
+                android:layout_marginTop="10dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -219,14 +218,48 @@
                 android:text="Deadline"
                 android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/deadline_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                android:text="October 25, 2024"
-                android:textColor="#000000" />
+<!--            <TextView-->
+<!--                android:id="@+id/deadline_text"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="4dp"-->
+<!--                android:text="October 25, 2024"-->
+<!--                android:textColor="#000000" />-->
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <Spinner
+                    android:id="@+id/yearSpinner"
+                    android:layout_width="105dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/Date" />
+
+                <!-- Month Spinner -->
+
+                <Spinner
+                    android:id="@+id/monthSpinner"
+                    android:layout_width="130dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toEndOf="@+id/yearSpinner"
+                    app:layout_constraintTop_toBottomOf="@+id/Date" />
+
+                <!-- Date Spinner -->
+
+                <Spinner
+                    android:id="@+id/dateSpinner"
+                    android:layout_width="100dp"
+                    android:layout_height="32dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintStart_toEndOf="@+id/monthSpinner"
+                    app:layout_constraintTop_toBottomOf="@+id/Date" />
+
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 
@@ -239,7 +272,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:backgroundTint="#0097B2"
-        android:text="Mark as Done"
+        android:text="Create new tasks"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

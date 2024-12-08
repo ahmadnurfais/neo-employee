@@ -13,4 +13,27 @@ Sasha has played a crucial role in driving our regional success and has been a f
 Please RSVP by December 12th, and feel free to contribute to the group card or gift. Let’s make this a memorable send-off!</string>
     <string name="posted_info"> Posted By: Robert, Operations Manager</string>
     <string name="posted_date">Monday, 9 December 2024</string>
+    <string name="news_text2"> Scheduled System Downtime on December 9th
+
+We want to inform our valued customers and partners about an upcoming scheduled system downtime. This maintenance window is planned to ensure our systems continue to operate at peak performance and reliability. The downtime is scheduled as follows:
+
+Date: Monday, December 9, 2024
+Time: 12:00 AM to 6:00 AM (Local Time)
+
+During this period, access to our systems, services, and online platforms will be temporarily unavailable. This includes, but is not limited to, our website, mobile applications, and customer portals.
+
+Why the Downtime is Necessary
+As part of our commitment to providing seamless service, we periodically perform maintenance to upgrade our infrastructure, apply security updates, and optimize performance. This scheduled downtime will enable us to implement critical system enhancements, introduce new features, and strengthen security measures.
+
+What You Need to Do
+We recommend planning ahead to minimize any inconvenience this downtime may cause. If you need access to any specific information or services during this time, please retrieve it in advance. Transactions and other time-sensitive activities should be completed before 11:59 PM on December 8, 2023.
+
+Once maintenance is complete, you can expect improved system performance, faster response times, and access to the latest updates. These enhancements are part of our ongoing efforts to provide you with a secure and efficient digital experience.
+
+We’re Here to Help
+If you have any questions or concerns about the scheduled downtime, please don’t hesitate to reach out to our support team. You can contact us at [support email] or call [support phone number].
+
+We appreciate your understanding and patience as we work to enhance our systems. Thank you for trusting us with your business needs.
+</string>
+    <string name="system_down_image">System Down Image</string>
 </resources>

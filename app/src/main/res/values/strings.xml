@@ -36,4 +36,5 @@ If you have any questions or concerns about the scheduled downtime, please donâ€
 We appreciate your understanding and patience as we work to enhance our systems. Thank you for trusting us with your business needs.
 </string>
     <string name="system_down_image">System Down Image</string>
+    <string name="system_downtime_scheduled_for_december_9th">System Downtime Scheduled for December 9th</string>
 </resources>

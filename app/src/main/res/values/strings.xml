@@ -22,7 +22,17 @@
     <string name="save_button">Save</string>
     <string name="hint"> </string>
     <string name="Lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget finibus enim. Curabitur ac convallis ante. Vestibulum elit magna, bibendum sed vehicula ut, lobortis et lacus.</string>
-
+    <string name="good_morning_user">Good Morning User!</string>
+    <string name="today_s_task">Today\'s Task</string>
+    <string name="all_tasks">All tasks</string>
+    <string name="in_progress">In progress</string>
+    <string name="completed">Completed</string>
+    <string name="_4_members">4 members</string>
+    <string name="team_workspace">Team Workspace</string>
+    <string name="summary">Summary</string>
+    <string name="assigned_tasks">Assigned Tasks</string>
+    <string name="completed_tasks">Completed Tasks</string>
+    <string name="december_12_2024">December 12,2024</string>
 
 
 </resources>

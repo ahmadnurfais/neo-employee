@@ -16,7 +16,7 @@
         android:layout_marginTop="52dp"
         android:layout_marginEnd="264dp"
         android:fontFamily="@font/albert_sans"
-        android:text="Good Morning User!"
+        android:text="@string/good_morning_user"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,7 +31,7 @@
         android:layout_marginEnd="276dp"
         android:layout_marginBottom="16dp"
         android:fontFamily="@font/albert_sans_semibold"
-        android:text="Today's Task"
+        android:text="@string/today_s_task"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/tabLayout"
@@ -61,17 +61,17 @@
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="All tasks" />
+            android:text="@string/all_tasks" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="In progress" />
+            android:text="@string/in_progress" />
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Completed" />
+            android:text="@string/completed" />
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -138,7 +138,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:fontFamily="@font/albert_sans"
-            android:text="4 members"
+            android:text="@string/_4_members"
             android:textSize="8sp"
             app:layout_constraintStart_toEndOf="@+id/imageView3"
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -192,7 +192,7 @@
             android:layout_marginEnd="206dp"
             android:layout_marginBottom="3dp"
             android:fontFamily="@font/albert_sans_semibold"
-            android:text="Team Workspace"
+            android:text="@string/team_workspace"
             android:textColor="@color/text_black"
             android:textSize="19sp"
             app:layout_constraintBottom_toTopOf="@+id/imageView"
@@ -233,7 +233,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/albert_sans_semibold"
-            android:text="Summary"
+            android:text="@string/summary"
             android:textColor="@color/text_black"
             android:textSize="19sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -272,7 +272,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/albert_sans"
-            android:text="Assigned Tasks"
+            android:text="@string/assigned_tasks"
             android:textSize="14sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/imageView14" />
@@ -294,7 +294,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="50dp"
             android:fontFamily="@font/albert_sans"
-            android:text="Completed Tasks"
+            android:text="@string/completed_tasks"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="@+id/imageView16"
             app:layout_constraintTop_toTopOf="@+id/imageView16" />
@@ -348,7 +348,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="272dp"
         android:fontFamily="@font/albert_sans_medium"
-        android:text="December 12,2024"
+        android:text="@string/december_12_2024"
         android:textColor="@color/text_black"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"

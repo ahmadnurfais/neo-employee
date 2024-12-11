@@ -33,7 +33,7 @@
                     android:layout_height="441dp"
                     android:background="@color/white"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/_9e963ffdc53817f8c523cb58afd168a" />
+                    android:src="@drawable/_farewellpic" />
 
             </androidx.cardview.widget.CardView>
 

@@ -37,4 +37,9 @@ We appreciate your understanding and patience as we work to enhance our systems.
 </string>
     <string name="system_down_image">System Down Image</string>
     <string name="system_downtime_scheduled_for_december_9th">System Downtime Scheduled for December 9th</string>
+    <string name="company_news">Company News</string>
+    <string name="it_support">IT Support</string>
+    <string name="_1_day_ago">1 day ago</string>
+    <string name="_3_days_ago">3 days ago</string>
+    <string name="robert_operations_manager">Robert, Operations Manager</string>
 </resources>
